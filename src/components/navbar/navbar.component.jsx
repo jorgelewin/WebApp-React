@@ -1,5 +1,7 @@
 import React from 'react';
 import './navbar.component.css';
+import pokebola from './pokebola.svg';
+
 
 class Navbar extends React.Component {
     constructor(){
@@ -9,11 +11,10 @@ class Navbar extends React.Component {
     render(){
         return (
             <header>
+                <img className="logo" src={pokebola} alt="logo" height="50px"/>
                 <h4 className="name">POKEDEX</h4>
-            <nav>
+            
             <a href="/" className="link_Character">CHARACTER DETAIL</a>
-           
-          </nav>
           <a href="/" className="link_About">ABOUT</a>
           </header>
         );

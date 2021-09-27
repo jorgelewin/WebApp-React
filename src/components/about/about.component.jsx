@@ -1,4 +1,5 @@
 import React from 'react';
+import './about.component.css'
 
 class About extends React.Component {
     constructor(){
@@ -7,7 +8,9 @@ class About extends React.Component {
 
     render(){
         return (
-            <h1>hola</h1>
+            <footer>
+                © Derechos Reservados |<a href="/">Jorge Lewin</a>
+            </footer>
         );
     }
 }
