@@ -1,0 +1,49 @@
+{
+    "Characters": [
+        {   
+            "name": "Bulbasaur",
+            "type": ["Planta", "Veneno"],
+            "description": "Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo.",
+            "photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+            "height": 0.7,
+            "weight": 6.9,
+            "ability": "Espesura" 
+        },
+        {   
+            "name": "Charmander",
+            "type": ["Fuego"],
+            "description": "Prefiere las cosas calientes. Dicen que cuando llueve le sale vapor de la punta de la cola.",
+            "photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+            "height": 0.6,
+            "weight": 8.5,
+            "ability": "Mar Llamas" 
+        },
+        {   
+            "name": "Squirtle",
+            "type": ["Agua"],
+            "description": "Cuando retrae su largo cuello en el caparazón, dispara agua a una presión increíble.",
+            "photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+            "height": 0.5,
+            "weight": 9.0,
+            "ability": "Torrente" 
+        },
+        {   
+            "name": "Pikachu",
+            "type": ["Eléctrico"],
+            "description": "Cuanto más potente es la energía eléctrica que genera este Pokémon, más suaves y elásticas se vuelven las bolsas de sus mejillas.",
+            "photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+            "height": 0.4,
+            "weight": 6.0,
+            "ability": "Electricidad Estática" 
+        },
+        {   
+            "name": "Jigglypuff ",
+            "type": ["Normal", "Hada"],
+            "description": "Su capacidad pulmonar es excepcional, incluso para un Pokémon. Es capaz de cantar nanas sin cesar hasta que su rival se duerma.",
+            "photo": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
+            "height": 0.5,
+            "weight": 5.5,
+            "ability": "Gran Encanto" 
+        }
+    ]
+}
