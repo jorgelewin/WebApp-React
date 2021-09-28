@@ -7,7 +7,7 @@ class CharacterDetail extends React.Component {
 
     render(){
         return (
-            <h1>hola</h1>
+            <h1></h1>
         );
     }
 }

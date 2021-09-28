@@ -1,0 +1,12 @@
+.character img{
+    height: 250px;
+    width: auto;
+}
+
+.character p {
+    text-align: center;
+}
+
+.character {
+    padding: 20px 20px;
+}

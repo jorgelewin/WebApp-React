@@ -1,13 +1,18 @@
 import React from 'react';
+import './character.component.css'
 
 class Character extends React.Component {
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
     }
 
     render(){
         return (
-            <h1>hola</h1>
+            
+               <div className="character">
+                    <img src={this.props.foto} alt="" />
+                      <p>{this.props.nombre}</p> 
+               </div>       
         );
     }
 }

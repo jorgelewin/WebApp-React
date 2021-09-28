@@ -5,7 +5,7 @@ import CharacterDetail from './components/characterDetail/characterDetail.compon
 import About from './components/about/about.component';
 function App() {
   return (
-    <div className="App">
+    <div>
      <Navbar />
      <Home />
      <CharacterDetail />
