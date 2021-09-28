@@ -11,7 +11,7 @@ class Character extends React.Component {
             
                <div className="character">
                     <img src={this.props.foto} alt="" />
-                      <p>{this.props.nombre}</p> 
+                      <h4>{this.props.nombre}</h4> 
                </div>       
         );
     }

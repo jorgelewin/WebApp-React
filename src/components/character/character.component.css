@@ -1,12 +1,30 @@
+
+.character {
+    width: 265px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    
+}
+
+.character:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
 .character img{
-    height: 250px;
+    height: 220px;
     width: auto;
 }
 
-.character p {
-    text-align: center;
-}
-
-.character {
-    padding: 20px 20px;
+.character h4 {
+    font-weight: 600;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: grey;
 }
