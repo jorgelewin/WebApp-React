@@ -1,13 +1,14 @@
 
 .character {
-    width: 265px;
-    height: 330px;
+    width: 255px; /* Esta propiedad modifica el ancho de la card */
+    height: 330px; /* Esta propiedad modifica el largo de la card */
     border-radius: 8px;
     box-shadow: 0 2px 14px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
+    margin-top: 40px;
     
 }
 
@@ -23,7 +24,7 @@
 
 .character h4 {
     font-weight: 600;
-    padding-top: 20px;
+    padding-top: 20px; /* Esta propiedad mueve el texto de la card mas abajo */
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     color: grey;

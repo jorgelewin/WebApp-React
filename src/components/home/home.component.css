@@ -1,7 +1,7 @@
 
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 100%; /* Modificando esta propiedad podemos asignar cuatro cards en una misma fila poniendo el valor en 100% (1200px para tres cards)*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
