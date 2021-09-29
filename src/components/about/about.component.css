@@ -11,8 +11,9 @@ footer {
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
-    position: absolute;
+    position: relative;
     bottom: 0;
+   
 }
 footer a {
     transition: all 0.3s ease 0s;

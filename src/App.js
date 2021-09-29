@@ -5,12 +5,14 @@ import CharacterDetail from './components/characterDetail/characterDetail.compon
 import About from './components/about/about.component';
 function App() {
   return (
-    <div>
-     <Navbar />
-     <Home />
-     <CharacterDetail />
-     <About />
-    </div>
+  <div className="page-container">
+      <div className="content-wrap">
+       <Navbar />
+       <Home />
+       <CharacterDetail />
+      </div>
+      <About />
+  </div>
   );
 }
 
